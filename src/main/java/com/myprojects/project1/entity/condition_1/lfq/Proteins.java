@@ -2,13 +2,15 @@ package com.myprojects.project1.entity.condition_1.lfq;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 
-public class proteins {
+public class Proteins {
 
     private int ProteinGroup;
     private String Top;
@@ -30,6 +32,5 @@ public class proteins {
     private String GroupProfile;
     private int AvgMass;
     private String Description;
-
 
 }
